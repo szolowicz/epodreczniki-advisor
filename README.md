@@ -1,6 +1,8 @@
 # epodreczniki-advisor
 Minimalistic Chrome extension - show correct answers on epodreczniki.pl
 
+:sparkles: Thanks to MentolMen (https://github.com/MentolMen)
+
 [![forthebadge](https://forthebadge.com/images/badges/kinda-sfw.svg)](https://forthebadge.com)
 
 <details>
