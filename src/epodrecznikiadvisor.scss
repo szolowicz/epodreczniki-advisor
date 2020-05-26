@@ -1,0 +1,43 @@
+$correct: #8fff87;
+$secondCorrect: #1b25f2;
+$incorrect: #ff8585;
+
+/* Ability to select text (and copy it) */
+* {
+  user-select: auto !important;
+}
+
+/* Single / multiple choice */
+div[data-correct='false'],
+li[data-correct='false'] {
+  background-color: $incorrect;
+  border: 5px $incorrect solid !important;
+}
+
+div[data-correct='true'],
+li[data-correct='true'] {
+  background-color: $correct;
+  border: 5px $correct solid !important;
+}
+
+/* Organize items */
+@for $number from 0 through 20 {
+  .column-one div[data-id='drg#{$number}']::after,
+  li[data-num='#{$number}']::after,
+  div[data-id$='#{$number}']::after,
+  span[data-id$='#{$number}']::after,
+  li[data-id$='#{$number}']::after {
+    content: '#{$number + 1}' !important;
+    color: $secondCorrect;
+  }
+}
+
+/* Crossword */
+$letters: (A, a, Ą, ą, B, b, C, c, Ć, ć, D, d, E, e, Ę, ę, F, f, G, g, H, h, I, i, J, j, K, k, L, l, Ł, ł, M, m, N, n, Ń, ń, O, o, Ó, ó, P, p, R, r, S, s, Ś, ś, T, t, U, u, W, w, Y, y, Z, z, Ź, ź, Ż, ż);
+
+@each $letter in $letters {
+  input[data-correct='#{$letter}'] {
+    background-color: rgba(25, 25, 25, 0.12) !important;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='50px' width='120px'><text x='0' y='15' fill='rgb(247, 38, 38)' font-size='16'>#{$letter}</text></svg>");
+  }
+}

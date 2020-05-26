@@ -1,0 +1,19 @@
+{
+  "name": "Epodreczniki.pl advisor",
+  "description": "Show correct answers on epodreczniki.pl",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://*.epodreczniki.pl/*"],
+      "css": ["dist/epodrecznikiadvisor.min.css"],
+      "all_frames": true
+    }
+  ],
+  "icons": {
+    "16": "dist/icons/epodrecznikiadvisor16.png",
+    "32": "dist/icons/epodrecznikiadvisor32.png",
+    "48": "dist/icons/epodrecznikiadvisor48.png",
+    "128": "dist/icons/epodrecznikiadvisor128.png"
+  }
+}
