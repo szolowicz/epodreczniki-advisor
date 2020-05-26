@@ -2,6 +2,30 @@ $correct: #8fff87;
 $secondCorrect: #1b25f2;
 $incorrect: #ff8585;
 
+/* Bug fixes */
+.column-two .dgl-icon {
+  left: 14px !important;
+}
+
+.column-one div::after, .column-two div::after {
+  border: none;
+}
+
+.dgl-element, .dgl-element::before,
+.dgl-element::after {
+  border: none !important;
+  border-left: none !important;
+  left: none;
+}
+.group, .drop-word, .group-name {
+  background-color: rgba(35, 35, 35, 0.1) !important;
+}
+.group-name {
+  padding: 4px;
+}
+
+
+
 /* Ability to select text (and copy it) */
 * {
   user-select: auto !important;

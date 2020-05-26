@@ -1,7 +1,7 @@
 {
   "name": "Epodreczniki.pl advisor",
   "description": "Show correct answers on epodreczniki.pl",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "content_scripts": [
     {
