@@ -11,20 +11,21 @@ $incorrect: #ff8585;
   border: none;
 }
 
-.dgl-element, .dgl-element::before,
+.dgl-element,
+.dgl-element::before,
 .dgl-element::after {
   border: none !important;
   border-left: none !important;
   left: none;
 }
+
 .group, .drop-word, .group-name {
   background-color: rgba(35, 35, 35, 0.1) !important;
 }
+
 .group-name {
   padding: 4px;
 }
-
-
 
 /* Ability to select text (and copy it) */
 * {
