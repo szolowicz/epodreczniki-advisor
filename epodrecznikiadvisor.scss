@@ -7,7 +7,8 @@ $incorrect: #ff8585;
   left: 14px !important;
 }
 
-.column-one div::after, .column-two div::after {
+.column-one div::after,
+.column-two div::after {
   border: none;
 }
 
@@ -19,7 +20,9 @@ $incorrect: #ff8585;
   left: none;
 }
 
-.group, .drop-word, .group-name {
+.group,
+.drop-word,
+.group-name {
   background-color: rgba(35, 35, 35, 0.1) !important;
 }
 
