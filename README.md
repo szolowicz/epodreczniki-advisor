@@ -1,4 +1,5 @@
 # epodreczniki-advisor
+
 Minimalistic Chrome extension - show correct answers on epodreczniki.pl
 
 :sparkles: Thanks to MentolMen (https://github.com/MentolMen)
@@ -17,7 +18,8 @@ Minimalistic Chrome extension - show correct answers on epodreczniki.pl
 </details>
 
 ## Usage
-1. **Download this repo as a ZIP file** (`Green button *Clone or download* -> Download ZIP`).
+
+1. **Go to the Releases page** (`then download newest version (.zip)`).
 2. **Unpack** ZIP file.
 3. **Go to the extensions page** (`chrome://extensions or Chrome menu -> More tools -> Extensions`).
 4. Enable **Developer mode** (`upper right corner`).
@@ -25,9 +27,11 @@ Minimalistic Chrome extension - show correct answers on epodreczniki.pl
 6. **Indicate the folder** you unpacked.
 
 ## Contributing
+
 Pull requests are welcome.
 
 ## Motivation
+
 I was bored :|
 
 also I am surprised how bad it was done (messy code and bad code quality)
