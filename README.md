@@ -8,13 +8,14 @@ Minimalistic Chrome extension - show correct answers on epodreczniki.pl
 
 <details>
   <summary>Screenshots</summary>
-  
-  ###### \*click for larger size\*
-  
-  [<img width="500" src="https://i.imgur.com/GhkCEHm.png" alt="Single / multiple choice">](https://i.imgur.com/GhkCEHm.png)
-  [<img width="500" src="https://i.imgur.com/1dtsawI.png" alt="Organize items">](https://i.imgur.com/1dtsawI.png)
-  [<img width="500" src="https://i.imgur.com/uZ3J116.png" alt="Make a sentence">](https://i.imgur.com/uZ3J116.png)
-  [<img width="500" src="https://i.imgur.com/avRp4Hl.png" alt="Crossword">](https://i.imgur.com/avRp4Hl.png)
+
+###### \*click for larger size\*
+
+[<img width="500" src="https://i.imgur.com/GhkCEHm.png" alt="Single / multiple choice">](https://i.imgur.com/GhkCEHm.png)
+[<img width="500" src="https://i.imgur.com/1dtsawI.png" alt="Organize items">](https://i.imgur.com/1dtsawI.png)
+[<img width="500" src="https://i.imgur.com/uZ3J116.png" alt="Make a sentence">](https://i.imgur.com/uZ3J116.png)
+[<img width="500" src="https://i.imgur.com/avRp4Hl.png" alt="Crossword">](https://i.imgur.com/avRp4Hl.png)
+
 </details>
 
 ## Usage
@@ -29,6 +30,10 @@ Minimalistic Chrome extension - show correct answers on epodreczniki.pl
 ## Contributing
 
 Pull requests are welcome.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Motivation
 
